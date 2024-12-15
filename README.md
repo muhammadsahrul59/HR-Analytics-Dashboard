@@ -43,12 +43,14 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 
+Link HR Analytics Tableau Public Dashboard : [HR Analytics Dashboard](https://public.tableau.com/views/WatsonsHRAnalyticsDashboard/IBMHRAnalyticsDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 Dashboard ini menampilkan berbagai visualisasi terkait **HR Analytics** yang mencakup attrition rate, distribusi berdasarkan departemen,
 usia, jenis kelamin (_gender_), pendidikan, dan _rating_ kepuasan karyawan. Dashboard berfungsi sebagai alat bagi manajemen untuk memahami lebih dalam kondisi
 tenaga kerja mereka.
 
 ### Dashboard Preview
-
+![HR Dashboard](sahrul57-dashboard.png)
 ## Conclusion
 
 Berdasarkan analisis data dalam dashboard, ditemukan insight berikut:
@@ -57,7 +59,7 @@ Berdasarkan analisis data dalam dashboard, ditemukan insight berikut:
 2. Usia 25-34 tahun memiliki tingkat attrition dominan yaitu sebesar **28.49%**.
 3. Posisi **Research Scientist** dan **Sales Executive** memiliki kepuasan tertinggi, namun **Human Resources** perlu ditingkatkan.
 
-### Rekomendasi Action Items (Optional)
+### Rekomendasi Action Items
 
 Berikut adalah rekomendasi action items yang harus diperhatikan oleh perusahaan agar menyelesaikan permasalahan atau mencapai target:
 
