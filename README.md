@@ -8,10 +8,9 @@ pada kinerja tim.
 
 ### Permasalahan Bisnis
 
-1. Mengidentifikasi faktor-faktor yang mempengaruhi attrition rate dalam perusahaan.
-2. Memahami distribusi attrition berdasarkan departemen, usia karyawan, dan pendidikan.
-3. Menilai kepuasan karyawan berdasarkan peran pekerjaan (job satisfaction rating).
-4. Menganalisis distribusi dan tren attrition berdasarkan gender dan kelompok usia.
+1. Tingginya attrition rate yang mencapai lebih dari 10% menjadi perhatian utama perusahaan karena dapat berdampak negatif pada produktivitas, efisiensi operasional, serta biaya perekrutan karyawan baru.
+2. Manager Departemen HR kesulitan dalam mengidentifikasi faktor-faktor penyebab attrition, baik dari aspek usia, departemen, kepuasan kerja, atau faktor demografis lainnya.
+3. Kurangnya alat yang terstruktur dan terukur untuk memantau kinerja HR serta tingkat kepuasan karyawan.
 
 ### Cakupan Proyek
 
@@ -27,18 +26,10 @@ pada kinerja tim.
 
 Sumber data: [employee_data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
 
-Setup environment:
-Tools yang digunakan:
-
-- Tableau untuk membuat Dashboard.
-- Google Colab untuk menjalankan notebook.ipynb
-- Python untuk membuat model Machine Learning.
-- Dataset employee_data.csv
-
-install pustaka (library) berikut:
-
 ```
-pip install -r requirements.txt
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install pandas numpy matplotlib seaborn
 ```
 
 ## Business Dashboard
@@ -55,9 +46,10 @@ tenaga kerja mereka.
 
 Berdasarkan analisis data dalam dashboard, ditemukan insight berikut:
 
-1. **Departemen Sales** memiliki tingkat attrition tertinggi (**59.78%**) yang memerlukan perhatian khusus.
-2. Usia 25-34 tahun memiliki tingkat attrition dominan yaitu sebesar **28.49%**.
-3. Posisi **Research Scientist** dan **Sales Executive** memiliki kepuasan tertinggi, namun **Human Resources** perlu ditingkatkan.
+1. **Departemen Sales** memiliki tingkat attrition tertinggi sebesar **59.78%**. Hal ini mengindikasikan tantangan besar dalam mempertahankan karyawan di departemen ini, yang bisa disebabkan oleh beban kerja tinggi, tekanan pencapaian target penjualan, atau peluang kerja di industri serupa.
+2. Karyawan berusia **25-34 tahun** merupakan kelompok dengan tingkat attrition tertinggi, sebesar **28.49%**. Kelompok ini kemungkinan besar terdiri dari profesional muda yang mencari peluang karir atau keseimbangan kehidupan kerja yang lebih baik.
+3. **Kepuasan kerja** berperan penting dalam retensi karyawan. Posisi **Sales Executive** dan **Research Scientist** menunjukkan kepuasan yang relatif tinggi, sementara departemen **Human Resources** memiliki tingkat kepuasan terendah. Hal ini menunjukkan perlunya perbaikan dalam sistem manajemen dan kesejahteraan tim HR itu sendiri.
+4. Bidang pendidikan **Life Sciences** paling terdampak attrition, menunjukkan adanya keterbatasan dalam pengembangan karir atau kesesuaian peran pekerjaan dengan latar belakang pendidikan tersebut.
 
 ### Rekomendasi Action Items
 
