@@ -2,9 +2,7 @@
 
 ## Business Understanding
 
-IBM mengalami tantangan dalam mengelola dan mempertahankan karyawan secara efektif. Memahami atrisi (pergantian karyawan) dan metrik kinerja sangat
-penting untuk meningkatkan kepuasan dan produktivitas tenaga kerja. Atrisi karyawan (Attriction Employee) dapat menyebabkan biaya yang besar dan berdampak
-pada kinerja tim.
+IBM adalah perusahaan multinasional yang berdiri sejak tahun 2000 dan memiliki lebih dari 1.000 karyawan yang tersebar di seluruh penjuru negeri. Meskipun telah tumbuh menjadi perusahaan berskala besar, IBM masih menghadapi tantangan dalam mengelola karyawan dengan efektif.
 
 ### Permasalahan Bisnis
 
@@ -14,7 +12,7 @@ pada kinerja tim.
 
 ### Cakupan Proyek
 
-- Mengolah dan menganalisis dataset IBM HR Analytics Employee Attrition & Performance dari Kaggle.
+- Mengolah dan menganalisis dataset pada Perusahaan IBM
 - Membuat visualisasi dashboard HR Analytics yang berfokus pada:
   - Employee count, attrition rate, dan profil demografis.
   - Analisis departemen dan bidang pendidikan terkait tingkat attrition.
@@ -24,12 +22,20 @@ pada kinerja tim.
 
 ### Persiapan
 
-Sumber data: [employee_data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
+Sumber data: [Employee Data](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
+
+#### Setup environment
 
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install pandas numpy matplotlib seaborn
+```
+
+#### Run prediction.py
+
+```
+python prediction.py
 ```
 
 ## Business Dashboard
@@ -41,7 +47,9 @@ usia, jenis kelamin (_gender_), pendidikan, dan _rating_ kepuasan karyawan. Dash
 tenaga kerja mereka.
 
 ### Dashboard Preview
+
 ![HR Dashboard](sahrul57-dashboard.png)
+
 ## Conclusion
 
 Berdasarkan analisis data dalam dashboard, ditemukan insight berikut:
